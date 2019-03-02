@@ -13,12 +13,36 @@ sap.ui.jsview("data_binding.mainPage", {
 	* @memberOf data_binding.mainPage
 	*/ 
 	createContent : function(oController) {
- 		return new sap.m.Page({
-			title: "Title",
+
+		
+/*
+
+
+*/		
+		var oForm = new sap.ui.layout.form.SimpleForm({
 			content: [
-			
+				
 			]
 		});
+
+		const oPage = new sap.m.Page({
+			title: "Tootle",
+			content: [
+
+			]
+		});
+
+
+		
+		return oPage;
 	}
 
 });
+
+/*
+var oSimpleForm = new sap.ui.layout.form.SimpleForm({
+
+})
+
+
+*/
